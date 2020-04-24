@@ -1,0 +1,99 @@
+body{
+        font-family: Arial, Helvetica, sans-serif;
+}
+section#celular{
+    background-color: rgb(0, 0, 0);
+    width: 280px;
+    height: 500px;
+    border-radius: 30px;
+    text-align: center;
+    position: fixed;
+    padding: 10px;
+}
+
+section#mensagem{
+    margin-left: 310px;
+    background-color: gray;
+    width: 200px;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+div#tela{
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    animation: escala 500ms;
+}
+
+input{
+    outline: none;
+}
+
+input#menu{
+    margin-top: 15px;
+    border: none;
+    background-color: rgb(255,255,255);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+div#barra-notif{
+    background-color: rgb(255, 255, 255,0.603);
+    width: 100%;
+    height: 20px;
+}
+
+input#camp-senha{
+    margin-top: 15px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.603);
+    text-align: center;
+    font-size: 50px;
+}
+
+p#barra-temp{
+    text-align: right;
+}
+
+input.numero{
+    background-color: rgba(255, 255, 255, 0.603);
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    font-size: 50px;
+    color: white;
+    border: none;
+    margin: 0px 1px;
+    cursor: pointer;
+}
+
+
+div.tela-senha{
+    animation: escala 500ms;
+}
+
+a#limpar-camp{
+    color: white;
+    cursor: pointer;
+   
+}
+
+
+@keyframes escala{
+    from{
+        opacity: 0;
+        transform: scale(0);
+    } to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
